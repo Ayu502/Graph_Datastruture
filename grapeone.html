@@ -89,7 +89,7 @@
         }
         .node text {
             fill: white;
-            font-size: 12px;
+            font-size: 16px;
             font-weight: 800;
             text-anchor: middle;
         }
@@ -200,7 +200,7 @@
                 .call(force.drag);
 
             node.append("circle")
-                .attr("r", 12) // Increase the radius
+                .attr("r", 20) // Increase the radius
                 .style("fill", function(d) { return d.color; });
 
             node.append("text")
